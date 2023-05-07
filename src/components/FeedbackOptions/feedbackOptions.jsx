@@ -1,6 +1,4 @@
 
-
-
 export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
     
     return (
@@ -22,6 +20,3 @@ export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
 
 export default FeedbackOptions;
 
-
-
-//bject.keys(this.state
