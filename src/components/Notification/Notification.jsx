@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 export const Notification = ({message}) => {
     return(
         <div>
-            {message && <p>{message}</p>}
+            {message && <p> {message} </p>}
         </div>
     )
 }

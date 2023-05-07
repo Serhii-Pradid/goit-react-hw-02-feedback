@@ -40,7 +40,7 @@ render() {
       onLeaveFeedback={this.handleLeaveFeedback} />
 </Section>
 
-<Section title='Statistics'>
+<Section title="Statistics">
 
 {totalCount !== 0 ? (
 
@@ -53,7 +53,6 @@ render() {
   ) : (
 <Notification message="There is no feedback" />
   )};
-
 
 </Section>
 
