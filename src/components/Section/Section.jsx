@@ -15,3 +15,5 @@ Section.propTypes = {
     title: PropTypes.string,
     //children: PropTypes.nobe
 }
+
+export default Section;
