@@ -41,6 +41,7 @@ render() {
 </Section>
 
   <Section title='Statistics'>
+
     {totalCount !== 0 ? (
       <Statistics
       good={good}
@@ -48,13 +49,12 @@ render() {
       bad={bad}
       total={totalCount}
       positivePercentage={positiveCount} />
-      ) : (
+      ) : 
+      (
 <Notification message="There is no feedback" />
       )};
 
 </Section>
-
-
     </div>
   );
 }
