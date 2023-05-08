@@ -1,9 +1,10 @@
 import PropTypes from 'prop-types';
+import css from 'components/Notification/Notification.module.css'
 
 export const Notification = ({message}) => {
     return(
         <div>
-            {message && <p> {message} </p>}
+            {message && <p className={css.textMessage}> {message} </p>}
         </div>
     )
 }
